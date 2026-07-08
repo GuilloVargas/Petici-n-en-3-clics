@@ -3,6 +3,7 @@ const path = require("path");
 const dotenv = require("dotenv");
 
 dotenv.config();
+require("./config/db");
 
 const app = express();
 const PORT = process.env.PORT || 3000;
